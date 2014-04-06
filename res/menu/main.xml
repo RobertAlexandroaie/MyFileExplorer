@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+		android:id="@+id/filetypes"
+		android:checkable="true"
+		android:title="@string/filetype"/>
+	<item
+		android:id="@+id/show"
+		android:checkable="true"
+		android:title="@string/show">
+		<group>
+			<item
+				android:id="@+id/show_pictures"
+				android:checkable="true"
+				android:checked="true"
+				android:title="@string/show_pictures"/>
+			<item
+				android:id="@+id/show_music"
+				android:checkable="true"
+				android:checked="true"
+				android:title="@string/show_music"/>
+			<item
+				android:id="@+id/show_other"
+				android:checkable="true"
+				android:checked="true"
+				android:title="@string/show_other"/>
+		</group>
+	</item>
+</menu>

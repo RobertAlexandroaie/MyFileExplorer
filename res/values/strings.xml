@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFileExplorer</string>
+    <string name="filetype">Show file types</string>
+    <string name="title">Title</string>
+    <string name="count">Count</string>
+    <string name="date">Date</string>
+    <string name="sd_card_path">/sdcard/</string>
+    <string name="image_description">Description</string>
+    <string name="copy">Copy</string>
+    <string name="rename">Rename</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="paste">Paste</string>
+    <string name="show_pictures">Show pictures</string>
+    <string name="show_music">Show music</string>
+    <string name="show_other">Show others</string>
+    <string name="show">Show</string>
+    <string name="rename_hint">Choose the name of the file.</string>
+
+</resources>

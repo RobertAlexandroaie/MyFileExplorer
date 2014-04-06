@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<ImageView
+		android:id="@+id/iconIV"
+		android:layout_width="50dip"
+		android:layout_height="50dip"
+		android:contentDescription="@string/image_description" >
+	</ImageView>
+	<TextView
+		android:id="@+id/titleTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dip"
+		android:layout_marginTop="5dip"
+		android:layout_toRightOf="@id/iconIV"
+		android:singleLine="true"
+		android:text="@string/title"
+		android:textStyle="bold" >
+	</TextView>
+	<TextView
+		android:id="@+id/countTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/titleTV"
+		android:layout_marginLeft="10dip"
+		android:layout_toRightOf="@id/iconIV"
+		android:text="@string/count" >
+	</TextView>
+	<TextView
+		android:id="@+id/dateTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/titleTV"
+		android:layout_marginLeft="5dip"
+		android:text="@string/date" >
+	</TextView>
+</RelativeLayout>
